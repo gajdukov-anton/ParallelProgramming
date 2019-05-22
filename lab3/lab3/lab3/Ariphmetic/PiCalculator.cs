@@ -48,29 +48,6 @@ namespace lab3.Ariphmetic
             _criticalSection.SetSpinCount( spinCount );
         }
 
-        private void StartThreads( Action<object> threadFunc )
-        {
-            double step = 1 / ( double ) AmountStep;
-            int countStepsPerThread = AmountStep / AmountThread;
-            var threads = new List<Thread>();
-            for ( int idThread = 0; idThread < AmountThread; idThread++ )
-            {
-                var thread = new Thread( threadFunc.Invoke );
-                threads.Add( thread );
-                thread.Start( new ArgsThread
-                {
-                    Left = idThread * countStepsPerThread,
-                    Right = ( idThread + 1 ) * countStepsPerThread,
-                    Step = step
-                } );
-            }
-
-            foreach ( var thread in threads )
-            {
-                thread.Join();
-            }
-        }
-
         private void IncreasePiValueBySpin( object arg )
         {
             var argsThread = ( ArgsThread ) arg;

@@ -41,9 +41,16 @@ namespace lab3.Threads
 
         public bool TryEnter( int timeout )
         {
+            int currentSpin = 0;
             var firstAttemptTime = DateTime.Now.Millisecond;
             while(!_mutex.WaitOne(0, false))
             {
+                if ( currentSpin == _spinCount )
+                {
+                    currentSpin = 0;
+                    Thread.Sleep( 10 );
+                }
+                currentSpin++;
                 if (DateTime.Now.Millisecond - firstAttemptTime >= timeout)
                 {
                     return false;
