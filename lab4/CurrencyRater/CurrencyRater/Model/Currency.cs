@@ -1,4 +1,4 @@
-﻿namespace CurrencyRater
+﻿namespace CurrencyRater.Model
 {
     public class Currency
     {

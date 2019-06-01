@@ -49,7 +49,7 @@
   <ItemGroup>
     <Compile Include="Controller\CurrencyRaterController.cs" />
     <Compile Include="Controller\ICurrencyRaterController.cs" />
-    <Compile Include="Currency.cs" />
+    <Compile Include="Model\Currency.cs" />
     <Compile Include="CurrencyRaterView.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -7,6 +7,7 @@ using Newtonsoft.Json.Linq;
 using System.Threading.Tasks;
 using System.Linq;
 using CurrencyRater.Util;
+using CurrencyRater.Model;
 
 namespace CurrencyRater.Service
 {
