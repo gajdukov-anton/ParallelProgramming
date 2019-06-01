@@ -1,0 +1,4 @@
+AUD
+AZN
+USD
+BYN

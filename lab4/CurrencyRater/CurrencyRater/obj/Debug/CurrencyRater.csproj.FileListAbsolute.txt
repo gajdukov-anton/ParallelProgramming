@@ -1,0 +1,12 @@
+E:\GITHUB\ParallelProgramming\lab4\CurrencyRater\CurrencyRater\obj\Debug\CurrencyRater.csprojAssemblyReference.cache
+E:\GITHUB\ParallelProgramming\lab4\CurrencyRater\CurrencyRater\obj\Debug\CurrencyRater.CurrencyRaterView.resources
+E:\GITHUB\ParallelProgramming\lab4\CurrencyRater\CurrencyRater\obj\Debug\CurrencyRater.Properties.Resources.resources
+E:\GITHUB\ParallelProgramming\lab4\CurrencyRater\CurrencyRater\obj\Debug\CurrencyRater.csproj.GenerateResource.cache
+E:\GITHUB\ParallelProgramming\lab4\CurrencyRater\CurrencyRater\obj\Debug\CurrencyRater.csproj.CoreCompileInputs.cache
+E:\GITHUB\ParallelProgramming\lab4\CurrencyRater\CurrencyRater\bin\Debug\CurrencyRater.exe.config
+E:\GITHUB\ParallelProgramming\lab4\CurrencyRater\CurrencyRater\bin\Debug\CurrencyRater.exe
+E:\GITHUB\ParallelProgramming\lab4\CurrencyRater\CurrencyRater\bin\Debug\CurrencyRater.pdb
+E:\GITHUB\ParallelProgramming\lab4\CurrencyRater\CurrencyRater\bin\Debug\Newtonsoft.Json.dll
+E:\GITHUB\ParallelProgramming\lab4\CurrencyRater\CurrencyRater\obj\Debug\CurrencyRater.csproj.CopyComplete
+E:\GITHUB\ParallelProgramming\lab4\CurrencyRater\CurrencyRater\obj\Debug\CurrencyRater.exe
+E:\GITHUB\ParallelProgramming\lab4\CurrencyRater\CurrencyRater\obj\Debug\CurrencyRater.pdb
